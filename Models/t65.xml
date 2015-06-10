@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <path>t65.ac</path>
+
+  <animation>
+    <type>select</type>
+    <object-name>gear</object-name>
+	<condition>
+      <greater-than>
+       <property>gear/gear[0]/position-norm</property>
+       <value>0</value>
+      </greater-than>
+	</condition>
+  </animation>
+
+
+  <animation>
+    <type>rotate</type>
+    <object-name>rtsfoil</object-name>
+    <object-name>rtsfoil02</object-name>
+    <object-name>rtsengine</object-name>
+    <object-name>rtmarking</object-name>
+    	<property>instrumentation/wings/position-attack</property>
+    <factor>22</factor>
+    <center>
+      <x-m> 1.660502 </x-m>
+      <y-m>  1.25 </y-m>
+      <z-m>  0</z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>rbsfoil</object-name>
+    <object-name>rbsfoil02</object-name>
+    <object-name>rbengine</object-name>
+    <object-name>rbmarking</object-name>
+    	<property>instrumentation/wings/position-attack</property>
+    <factor>-22</factor>
+    <center>
+      <x-m> 1.660502 </x-m>
+      <y-m>  1.25 </y-m>
+      <z-m>  0</z-m>
+    </center>
+    <axis>
+      <x> 22 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ltsfoil</object-name>
+    <object-name>ltsfoil002</object-name>
+    <object-name>ltengine</object-name>
+    <object-name>ltmarking</object-name>
+    	<property>instrumentation/wings/position-attack</property>
+    <factor>-22</factor>
+    <center>
+      <x-m> -1.660502 </x-m>
+      <y-m>  -1.25 </y-m>
+      <z-m>  0</z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>lbsfoil</object-name>
+    <object-name>lbsfoil02</object-name>
+    <object-name>lbengine</object-name>
+    <object-name>lbmarking</object-name>
+    	<property>instrumentation/wings/position-attack</property>
+    <factor>22</factor>
+    <center>
+      <x-m> -1.660502 </x-m>
+      <y-m>  -1.25 </y-m>
+      <z-m>  0</z-m>
+    </center>
+    <axis>
+      <x> 22 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>rtsfoil</object-name>
+    <object-name>rtsfoil02</object-name>
+    <object-name>rtsengine</object-name>
+    <object-name>rtmarking</object-name>
+    	<property>instrumentation/wings/position-norm</property>
+    <factor>22</factor>
+    <center>
+      <x-m> 1.660502 </x-m>
+      <y-m>  1.25 </y-m>
+      <z-m>  0</z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>rbsfoil</object-name>
+    <object-name>rbsfoil02</object-name>
+    <object-name>rbengine</object-name>
+    <object-name>rbmarking</object-name>
+    	<property>instrumentation/wings/position-norm</property>
+    <factor>22</factor>
+    <center>
+      <x-m> 1.660502 </x-m>
+      <y-m>  1.25 </y-m>
+      <z-m>  0</z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>ltsfoil</object-name>
+    <object-name>ltsfoil002</object-name>
+    <object-name>ltengine</object-name>
+    <object-name>ltmarking</object-name>
+    	<property>instrumentation/wings/position-norm</property>
+    <factor>22</factor>
+    <center>
+      <x-m> -1.660502 </x-m>
+      <y-m>  -1.25 </y-m>
+      <z-m>  0</z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>lbsfoil</object-name>
+    <object-name>lbsfoil02</object-name>
+    <object-name>lbengine</object-name>
+    <object-name>lbmarking</object-name>
+    	<property>instrumentation/wings/position-norm</property>
+    <factor>22</factor>
+    <center>
+      <x-m> -1.660502 </x-m>
+      <y-m>  -1.25 </y-m>
+      <z-m>  0</z-m>
+    </center>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>canopy</object-name>
+    <object-name>canopyglass</object-name>
+    <property>/instrumentation/doors/passenger/position-norm</property>
+    <factor> 30 </factor>
+    <center>
+      <x-m> -0.450502 </x-m>
+      <y-m>  0 </y-m>
+      <z-m>  0.96</z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+
+
+</PropertyList>
+
